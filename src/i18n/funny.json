@@ -1,0 +1,44 @@
+{
+  "shared": {
+    "psych": "Psych Engine",
+    "codename": "Codename Engine",
+    "online": "Psych Engine Online",
+    "pslice": "P-Slice",
+    "base": "Base Game",
+    "js": "Jordan Santiago Engine (JS)"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "library": "Library",
+    "downloads": "Downloads",
+    "updates": "Updates",
+    "stats": "Stats",
+    "engines": "Engines",
+    "settings": "Settings"
+  },
+  "settings": {
+    "description": "config ur dirs and stuff",
+    "theme+lang": "theme + lang",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "catppuccin": "Catppuccin",
+    "terminal": "Terminal",
+    "liquidahh": "Liquid Ass",
+    "language": "Language",
+    "directories": "dirs",
+    "enginedirs": "Engine Dirs",
+    "browse": "Browse",
+    "placeengines": "place where games live",
+    "placeexecutables": "place where game exes live",
+    "placebase": "place where base game mods live",
+    "placepsych": "place where psych engine mods live",
+    "placecodename": "Place where to put the Codename Engine mods",
+    "placeonline": "Place where to put the Psych Engine online mods",
+    "placepslice": "Place where to put the P-Slice mods",
+    "other": "other sets",
+    "defaultengine": "default engine",
+    "maxdl": "max downloads"
+  }
+}

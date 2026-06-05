@@ -1,0 +1,29 @@
+/* Terminal Theme */
+
+[data-theme="terminal-dark"] {
+  --background: #111;
+  --foreground: #ddd;
+
+  --surface: #ddd;
+
+  --primary: #ddd;
+  --secondary: #ddd;
+
+  --border: #ddd;
+  
+  --radius: 0px;
+}
+
+[data-theme="terminal-light"] {
+    --background: #fff;
+    --foreground: #000;
+    
+    --surface: #000;
+    
+    --primary: #000;
+    --secondary: #000;
+    
+    --border: #000;
+    
+    --radius: 0px;
+}

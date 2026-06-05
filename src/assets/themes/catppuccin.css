@@ -1,0 +1,29 @@
+/* Catppuccin Theme */
+
+[data-theme="catppuccin-dark"] {
+  --background: #1e1e2e;
+  --foreground: #cdd6f4;
+
+  --surface: #181825;
+
+  --primary: #cba6f7;
+  --secondary: #89b4fa;
+
+  --border: #313244;
+
+  --radius: 8px;
+}
+
+[data-theme="catppuccin-light"] {
+  --background: #eff1f5;
+  --foreground: #4c4f69;
+
+  --surface: #dce0e8;
+
+  --primary: #8839ef;
+  --secondary: #4c4f69;
+
+  --border: #ccd0da;
+
+  --radius: 8px;
+}

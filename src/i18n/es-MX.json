@@ -1,0 +1,63 @@
+{
+  "shared": {
+    "psych": "Psych Engine",
+    "codename": "Codename Engine",
+    "online": "Psych Engine Online",
+    "pslice": "P-Slice",
+    "base": "Base Game",
+    "js": "Jordan Santiago Engine (JS)",
+    "downloading": "Descargando...",
+    "extracting": "Extrayendo...",
+    "moving": "Moviendo...",
+    "complete": "¡Terminado!",
+    "launch": "Ejecutar",
+    "view": "Ver en GitHub/GameBanana",
+    "source": "Código Fuente",
+    "version": "Versión {version}",
+    "unknown": "Desconocido",
+    "addengine": "Añadir Motor",
+    "manage": "Administrar",
+    "delete": "Eliminar",
+    "installedengines": "Motores Instalados",
+    "noengines": "No se han instalado cualquier motor. Agrega motores aquí."
+  },
+  "explore": {
+    "result": "Sin Resultados | {count} Resultado | {count} Resultados",
+    "search": "Busca mods, motores, y más...",
+    "trending": "Mods en Tendencia"
+  },
+  "nav": {
+    "home": "Hogar",
+    "explore": "Explorar",
+    "library": "Biblioteca",
+    "downloads": "Descargas",
+    "update": "Actualizaciones",
+    "stats": "Estadísticas",
+    "engines": "Motores",
+    "settings": "Configuración"
+  },
+  "settings": {
+    "description": "Configura tus preferencias y administra tus directorios.",
+    "theme+lang": "Tema e Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "catppuccin": "Catppuccin",
+    "terminal": "Terminal",
+    "liquidahh": "Liquid Ass (Liquid Glass)",
+    "language": "Idioma",
+    "directories": "Directorios",
+    "enginedirs": "Directorios de Motores",
+    "browse": "Navegar",
+    "placeengines": "Lugar donde colocar los motores del juego",
+    "placeexecutables": "Lugar donde colocar los ejecutables del juego",
+    "placebase": "Lugar donde colocar los mods del Base Game",
+    "placepsych": "Lugar donde colocar los mods del Psych Engine",
+    "placecodename": "Lugar donde colocar los mods del Codename Engine",
+    "placeonline": "Lugar donde colocar los mods del Psych Engine Online",
+    "placepslice": "Lugar donde colocar los mods del P-Slice",
+    "other": "Otras Configuraciones",
+    "defaultengine": "Motor Predeterminado",
+    "maxdl": "Máximo de Descargas Concurrentes"
+  }
+}

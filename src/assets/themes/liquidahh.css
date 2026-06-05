@@ -1,0 +1,25 @@
+[data-theme="liquid-light"] {
+  --background: #f2f2f7;
+  --foreground: #111111;
+
+  --surface: rgba(255,255,255,0.2);
+
+  --primary: #007aff;
+
+  --border: rgba(255,255,255,0.3);
+
+  --radius: 12px;
+}
+
+[data-theme="liquid-dark"] {
+  --background: #111111;
+  --foreground: #f2f2f7;
+
+  --surface: rgba(255,255,255,0.1);
+
+  --primary: #0a84ff;
+
+  --border: rgba(255,255,255,0.2);
+
+  --radius: 12px;
+}

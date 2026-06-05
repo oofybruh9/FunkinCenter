@@ -1,0 +1,63 @@
+{
+  "shared": {
+    "psych": "Psych Engine",
+    "codename": "Codename Engine",
+    "online": "Psych Engine Online",
+    "pslice": "P-Slice",
+    "base": "Base Game",
+    "js": "Jordan Santiago Engine (JS)",
+    "downloading": "Downloading...",
+    "extracting": "Extracting...",
+    "moving": "Moving...",
+    "complete": "Complete!",
+    "launch": "Launch",
+    "view": "View on GitHub/GameBanana",
+    "source": "Source Code",
+    "version": "Version {version}",
+    "unknown": "Unknown",
+    "addengine": "Add Engine",
+    "manage": "Manage",
+    "delete": "Delete",
+    "installedengines": "Installed Engines",
+    "noengines": "No engines installed. Add engines here."
+  },
+  "explore": {
+    "result": "No Results | {count} Result | {count} Results",
+    "search": "Search for mods, engines, and more...",
+    "trending": "Trending Mods"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "library": "Library",
+    "downloads": "Downloads",
+    "update": "Updates",
+    "stats": "Stats",
+    "engines": "Engines",
+    "settings": "Settings"
+  },
+  "settings": {
+    "description": "Configure your preferences and manage your directories.",
+    "theme+lang": "Theme and Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "catppuccin": "Catppuccin",
+    "terminal": "Terminal",
+    "liquidahh": "Liquid Ass (Liquid Glass)",
+    "language": "Language",
+    "directories": "Directories",
+    "enginedirs": "Engine Directories",
+    "browse": "Browse",
+    "placeengines": "Place where to put the game engines",
+    "placeexecutables": "Place where to put the game executables",
+    "placebase": "Place where to put the Base Game mods",
+    "placepsych": "Place where to put the Psych Engine mods",
+    "placecodename": "Place where to put the Codename Engine mods",
+    "placeonline": "Place where to put the Psych Engine online mods",
+    "placepslice": "Place where to put the P-Slice mods",
+    "other": "Other Settings",
+    "defaultengine": "Default Engine",
+    "maxdl": "Maximum Concurrent Downloads"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "funkincenter",
+  "version": "0.1.0",
+  "identifier": "com.oofybruh9.funkincenter",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "FunkinCenter",
+        "width": 800,
+        "height": 600,
+        "minHeight": 580,
+        "minWidth": 440
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "cli": {
+      "description": "A better version of FunkHub (mobile support avaliable!)",
+      "args": [
+        {
+          "name": "verbose",
+          "short": "v",
+          "description": "change app verbosity (more logs)",
+          "takesValue": false
+        },
+        {
+          "name": "menu",
+          "description": "open a specific menu",
+          "short": "m",
+          "takesValue": true,
+          "multiple": false,
+          "possibleValues": [
+            "home",
+            "explore",
+            "library",
+            "settings",
+            "engines",
+            "stats"
+          ]
+        },
+        {
+          "name": "search",
+          "description": "search for a mod",
+          "short": "s",
+          "takesValue": true,
+          "multiple": false
+        },
+        {
+          "name": "gamebanana",
+          "description": "insert gamebanana id to download mod from",
+          "short": "g",
+          "takesValue": true,
+          "multiple": false
+        },
+        {
+          "name": "github",
+          "description": "insert github url to download mod from (like 'https://github.com/user/repo', NO EXCEPTIONS)",
+          "short": "u",
+          "takesValue": true,
+          "multiple": false
+        }
+      ]
+    }
+  }
+}
