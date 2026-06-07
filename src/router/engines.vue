@@ -13,10 +13,10 @@
         </div>
         <div>
             <h2>Installed Engines</h2>
-            <div class="gap-4 mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+            <div class="gap-4 mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4">
                 <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
                     <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
-                        <img src="//placehold.co/100x100" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                        <img src="../assets/icons/codename.webp" alt="" class=" h-15 w-15 object-cover rounded-lg">
                     </div>
                     <div>
                         <h2>Codename Engine</h2>
@@ -28,42 +28,147 @@
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <use href="../assets/feather-sprite.svg#play" />
                                 </svg>
-                                Play
+                                {{ $t("shared.launch") }}
                             </button>
                             <button class="mt-2 flex">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <use href="../assets/feather-sprite.svg#settings" />
                                 </svg>
-                                Manage
+                                {{ $t("shared.manage") }}
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-gray-200 rounded-xl p-4">
-                    <h2>Psych Engine</h2>
-                    <h3>v1.0.4</h3>
-                    <p>Description</p>
+                <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
+                    <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
+                        <img src="../assets/icons/base.png" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <h2>Base Engine</h2>
+                        <h3>0.8.5</h3>
+                        <p>Description</p>
+                        <div class="flex flex-row gap-2">
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#play" />
+                                </svg>
+                                {{ $t("shared.launch") }}
+                            </button>
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#settings" />
+                                </svg>
+                                {{ $t("shared.manage") }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-200 rounded-xl p-4">
-                    <h2>FPS Plus</h2>
-                    <h3>Version</h3>
-                    <p>Description</p>
+                <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
+                    <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
+                        <img src="../assets/icons/psych.webp" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <h2>Psych Engine</h2>
+                        <h3>1.0.4 (Final)</h3>
+                        <p>Description</p>
+                        <div class="flex flex-row gap-2">
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#play" />
+                                </svg>
+                                {{ $t("shared.launch") }}
+                            </button>
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#settings" />
+                                </svg>
+                                {{ $t("shared.manage") }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-200 rounded-xl p-4">
-                    <h2>Psych Engine Online</h2>
-                    <h3>v0.14.3</h3>
-                    <p>Description</p>
+                <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
+                    <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
+                        <img src="../assets/icons/p-slice.png" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <h2>P-Slice Engine</h2>
+                        <h3>12</h3>
+                        <p>Description</p>
+                        <div class="flex flex-row gap-2">
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#play" />
+                                </svg>
+                                {{ $t("shared.launch") }}
+                            </button>
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#settings" />
+                                </svg>
+                                {{ $t("shared.manage") }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-200 rounded-xl p-4">
-                    <h2>Base Engine</h2>
-                    <h3>v0.8.4</h3>
-                    <p>Description</p>
+                <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
+                    <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
+                        <img src="../assets/icons/js.png" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <h2>JS Engine</h2>
+                        <h3>nightly</h3>
+                        <p>Description</p>
+                        <div class="flex flex-row gap-2">
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#play" />
+                                </svg>
+                                {{ $t("shared.launch") }}
+                            </button>
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#settings" />
+                                </svg>
+                                {{ $t("shared.manage") }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-gray-200 rounded-xl p-4">
-                    <h2>P-Slice Engine</h2>
-                    <h3>Version</h3>
-                    <p>Description</p>
+                <div class="bg-gray-200 rounded-xl p-4 flex flex-row">
+                    <div class="bg-gray-300 rounded-lg mb-4 h-15 w-15 mr-4">
+                        <img src="../assets/icons/ale-psych.jpg" alt="" class=" h-15 w-15 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <h2>Ale Psych Engine</h2>
+                        <h3>nightly</h3>
+                        <p>Description</p>
+                        <div class="flex flex-row gap-2">
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#play" />
+                                </svg>
+                                {{ $t("shared.launch") }}
+                            </button>
+                            <button class="mt-2 flex">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <use href="../assets/feather-sprite.svg#settings" />
+                                </svg>
+                                {{ $t("shared.manage") }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -20,7 +20,8 @@
             </div>
             <div class="mb-4">
                 <label class="block text-gray-700 mb-2" for="language">{{ $t('settings.language') }}</label>
-                <select id="language" class="w-full p-2 border border-gray-300 rounded" v-model="$i18n.locale" @change="localeChange">
+                <select id="language" class="w-full p-2 border border-gray-300 rounded" v-model="$i18n.locale"
+                    @change="localeChange">
                     <option value="en">English (US)</option>
                     <option value="esMX">Español (México)</option>
                     <option value="ja">日本語 (Japan)</option>
@@ -31,54 +32,61 @@
                 <div class="mb-4 w-full">
                     <label class="block text-gray-700 mb-2" for="notifications">{{ $t('settings.enginedirs') }}</label>
                     <div class="flex flex-col lg:flex-row gap-2">
-                        <input type="text" placeholder=""
+                        <input type="text" :placeholder="$t('settings.placeengines')"
                             class="w-full p-2 border border-gray-300 rounded" />
-                        <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
+                        <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
                         this should not show up if in android
                     </div>
                     <br>
                     <div class="flex flex-col lg:flex-row gap-2">
-                        <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                        <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
+                        <input type="text" :placeholder="$t('settings.placeexecutables')"
+                            class="w-full p-2 border border-gray-300 rounded" />
+                        <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
                         this should not show up if in android
                     </div>
                 </div>
             </div>
             <div id="android-exclusive" class="mb-4 w-full">
-                <div class="mb-4 w-full">
-                    <div class="flex flex-col lg:flex-row gap-2">
-                        <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                        <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
-                        this should not show up if in desktop
-                    </div>
-                    <br>
-                    <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
-                    this should not show up if in desktop
-                </div>
-                <br>
-                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
-                    <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
-                    this should not show up if in desktop
-                </div>
-                <br>
-                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
-                    <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
-                    this should not show up if in desktop
-                </div>
-                <br>
-                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
-                    <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded" />
-                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
-                    this should not show up if in desktop
-                </div>
-                <br>
-                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
-                    <input type="text" placeholder="somewhere to put p-slice mods"
+                <div class="flex flex-col lg:flex-row gap-2">
+                    <input type="text" :placeholder="$t('settings.placebase')"
                         class="w-full p-2 border border-gray-300 rounded" />
-                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">Browse</button>
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
+                    this should not show up if in desktop
+                </div>
+                <br>
+                <div class="flex flex-col lg:flex-row gap-2">
+                    <br>
+                    <input type="text" :placeholder="$t('settings.placepsych')"
+                        class="w-full p-2 border border-gray-300 rounded" />
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
+                    this should not show up if in desktop
+                </div>
+                <br>
+                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
+                    <input type="text" :placeholder="$t('settings.placecodename')"
+                        class="w-full p-2 border border-gray-300 rounded" />
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
+                    this should not show up if in desktop
+                </div>
+                <br>
+                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
+                    <input type="text" :placeholder="$t('settings.placeonline')"
+                        class="w-full p-2 border border-gray-300 rounded" />
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
+                    this should not show up if in desktop
+                </div>
+                <br>
+                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
+                    <input type="text" :placeholder="$t('settings.placepslice')"
+                        class="w-full p-2 border border-gray-300 rounded" />
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
+                    this should not show up if in desktop
+                </div>
+                <br>
+                <div class="mb-4 w-full flex flex-col lg:flex-row gap-2">
+                    <input type="text" :placeholder="$t('settings.placealepsych')"
+                        class="w-full p-2 border border-gray-300 rounded" />
+                    <button class="p-2 bg-gray-200 rounded lg:w-1/12">{{ $t('settings.browse') }}</button>
                     this should not show up if in desktop
                 </div>
             </div>
@@ -98,7 +106,7 @@
 </template>
 <script>
 const handleLanguageChange = (event) => {
-  const selectedLang = event.target.value
-  localStorage.setItem('user-locale', selectedLang)
+    const selectedLang = event.target.value
+    localStorage.setItem('user-locale', selectedLang)
 }
 </script>

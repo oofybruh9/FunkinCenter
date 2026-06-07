@@ -19,7 +19,22 @@
     "manage": "Administrar",
     "delete": "Eliminar",
     "installedengines": "Motores Instalados",
-    "noengines": "No se han instalado cualquier motor. Agrega motores aquí."
+    "noengines": "No se han instalado cualquier motor. Agrega motores aquí.",
+    "featured": "Destacado",
+    "besttoday": "Lo mejor de hoy",
+    "bestweek": "Lo mejor de esta semana",
+    "bestmonth": "Lo mejor de este mes",
+    "best3months": "Lo mejor de 3 meses",
+    "best6months": "Lo mejor de 6 meses",
+    "bestyear": "Lo mejor de este año",
+    "bestalltime": "Lo mejor de lo mejor",
+    "overview": "Vista General"
+  },
+  "home": {
+    "welcome": "¡Bienvenido a Funkin' Center!",
+    "gameinstall": "No se ha instalado ningún juego | {count} Juego Instalado | {count} Juegos Instalados",
+    "engineinstall": "No se han instalado motores | {count} Motor Instalado | {count} Motores Instalados",
+    "pendingupdates": "No hay actualizaciones pendientes | {count} Actualización Pendiente | {count} Actualizaciones Pendientes"
   },
   "explore": {
     "result": "Sin Resultados | {count} Resultado | {count} Resultados",
@@ -34,7 +49,9 @@
     "update": "Actualizaciones",
     "stats": "Estadísticas",
     "engines": "Motores",
-    "settings": "Configuración"
+    "settings": "Configuración",
+    "more": "Más",
+    "search": "Buscar"
   },
   "settings": {
     "description": "Configura tus preferencias y administra tus directorios.",
@@ -56,6 +73,7 @@
     "placecodename": "Lugar donde colocar los mods del Codename Engine",
     "placeonline": "Lugar donde colocar los mods del Psych Engine Online",
     "placepslice": "Lugar donde colocar los mods del P-Slice",
+    "placealepsych": "Lugar donde colocar los mods del Ale Psych",
     "other": "Otras Configuraciones",
     "defaultengine": "Motor Predeterminado",
     "maxdl": "Máximo de Descargas Concurrentes"

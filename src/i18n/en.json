@@ -19,22 +19,35 @@
     "manage": "Manage",
     "delete": "Delete",
     "installedengines": "Installed Engines",
-    "noengines": "No engines installed. Add engines here."
+    "noengines": "No engines installed. Add engines here.",
+    "featured": "Featured",
+    "besttoday": "Best of Today",
+    "bestweek": "Best of This Week",
+    "bestmonth": "Best of This Month",
+    "best3months": "Best of 3 Months",
+    "best6months": "Best of 6 Months",
+    "bestyear": "Best of This Year",
+    "bestalltime": "Best of All Time",
+    "overview": "Overview"
+  },
+  "home": {
+    "welcome": "Welcome to Funkin' Center!",
+    "gameinstall": "No Games Installed | {count} Game Installed | {count} Games Installed",
+    "engineinstall": "No Engines Installed | {count} Engine Installed | {count} Engines Installed",
+    "pendingupdates": "No Pending Updates | {count} Pending Update | {count} Pending Updates"
   },
   "explore": {
     "result": "No Results | {count} Result | {count} Results",
     "search": "Search for mods, engines, and more...",
     "trending": "Trending Mods"
   },
-  "nav": {
-    "home": "Home",
-    "explore": "Explore",
-    "library": "Library",
-    "downloads": "Downloads",
-    "update": "Updates",
-    "stats": "Stats",
-    "engines": "Engines",
-    "settings": "Settings"
+  "sort": {
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "atoz": "A to Z",
+    "ztoa": "Z to A",
+    "mostplay": "Most Played",
+    "recent": "Recently Played"
   },
   "settings": {
     "description": "Configure your preferences and manage your directories.",
@@ -56,8 +69,21 @@
     "placecodename": "Place where to put the Codename Engine mods",
     "placeonline": "Place where to put the Psych Engine online mods",
     "placepslice": "Place where to put the P-Slice mods",
+    "placealepsych": "Place where to put the Ale Psych mods",
     "other": "Other Settings",
     "defaultengine": "Default Engine",
     "maxdl": "Maximum Concurrent Downloads"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "library": "Library",
+    "downloads": "Downloads",
+    "update": "Updates",
+    "stats": "Stats",
+    "engines": "Engines",
+    "settings": "Settings",
+    "more": "More",
+    "search": "Search"
   }
 }
