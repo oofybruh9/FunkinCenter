@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row h-full w-full">
+  <div class="flex flex-row h-full w-full bg-background">
     <aside class="hidden sm:block border-r border-gray-300 p-4 w-64">
       <div class="logo">
         <img src="./assets/logo.png" alt="Logo" />

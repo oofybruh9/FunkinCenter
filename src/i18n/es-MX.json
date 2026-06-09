@@ -41,6 +41,14 @@
     "search": "Busca mods, motores, y más...",
     "trending": "Mods en Tendencia"
   },
+  "sort": {
+    "newest": "Nuevo",
+    "oldest": "Viejo",
+    "atoz": "A a Z",
+    "ztoa": "Z a A",
+    "mostplay": "Más Jugado",
+    "recent": "Recién Jugado"
+  },
   "nav": {
     "home": "Hogar",
     "explore": "Explorar",
@@ -59,9 +67,6 @@
     "theme": "Tema",
     "light": "Claro",
     "dark": "Oscuro",
-    "catppuccin": "Catppuccin",
-    "terminal": "Terminal",
-    "liquidahh": "Liquid Ass (Liquid Glass)",
     "language": "Idioma",
     "directories": "Directorios",
     "enginedirs": "Directorios de Motores",
@@ -77,5 +82,10 @@
     "other": "Otras Configuraciones",
     "defaultengine": "Motor Predeterminado",
     "maxdl": "Máximo de Descargas Concurrentes"
+  },
+  "themes":{
+    "catppuccin": "Catppuccin",
+    "terminal": "Terminal",
+    "liquidahh": "Liquid Ass (Liquid Glass)"
   }
 }

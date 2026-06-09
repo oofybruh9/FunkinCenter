@@ -11,11 +11,7 @@
             <div class="flex flex-col gap-4 w-full">
                 <h2>Mod Name</h2>
                 <p>old_ver to new_ver</p>
-                <button class="">
-                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" class="stroke-blue-100">
-                        <use href="../assets/feather-sprite.svg#download-cloud" />
-                    </svg>
+                <button class="w-full">
                     Download+Install Update
                 </button>
             </div>

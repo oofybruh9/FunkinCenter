@@ -8,14 +8,16 @@
             <h2 class="text-2xl font-semibold mb-4">{{ $t('settings.theme+lang') }}</h2>
             <div class="mb-4">
                 <label class="block text-gray-700 mb-2" for="theme">{{ $t('settings.theme') }}</label>
-                <select id="theme" class="w-full p-2 border border-gray-300 rounded">
+                <select id="theme" class="w-full p-2 border border-gray-300 rounded" v-model="mode"
+                    @change="modeChange">
                     <option value="light">{{ $t('settings.light') }}</option>
                     <option value="dark">{{ $t('settings.dark') }}</option>
                 </select>
-                <select id="look" class="w-full p-2 border border-gray-300 rounded">
-                    <option value="cat">{{ $t('settings.catppuccin') }}</option>
-                    <option value="ter">{{ $t('settings.terminal') }}</option>
-                    <option value="base">{{ $t('settings.liquidahh') }}</option>
+                <select id="lookie" class="w-full p-2 border border-gray-300 rounded" v-model="theme"
+                    @change="themeChange">
+                    <option value="catppuccin">{{ $t('theme.catppuccin') }}</option>
+                    <option value="terminal">{{ $t('theme.terminal') }}</option>
+                    <option value="liquidahh">{{ $t('theme.liquidahh') }}</option>
                 </select>
             </div>
             <div class="mb-4">
@@ -105,8 +107,43 @@
     </div>
 </template>
 <script>
-const handleLanguageChange = (event) => {
+const localeChange = (event) => {
     const selectedLang = event.target.value
-    localStorage.setItem('user-locale', selectedLang)
+    localStorage.setItem('user-locale', selectedLang);
 }
+
+import { ref, onMounted } from 'vue'
+
+const theme = ref('');
+const mode = ref('');
+
+onMounted(() => {
+    theme.value = localStorage.getItem('theme') || 'catppuccin';
+
+    mode.value = localStorage.getItem('mode') || 'light';
+    document.documentElement.dataset.theme = `${theme.value}-${mode.value}`;
+})
+
+function themeChange(event) {
+    const newValue = event.target.value;
+    console.log('Selected value changed to:', newValue);
+    localStorage.setItem('theme', newValue);
+}
+</script>
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+    const themes = ["catppuccin", "terminal", "liquidahh"];
+    const dropdown = document.getElementById('lookie');
+
+    themes.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        option.textContent = `{{ $t("theme.${item}")}}`;
+        dropdown.appendChild(option);
+    });
+});
+
 </script>

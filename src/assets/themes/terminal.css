@@ -1,6 +1,6 @@
 /* Terminal Theme */
 
-[data-theme="terminal-dark"] {
+.theme-terminal-dark {
   --background: #111;
   --foreground: #ddd;
 
@@ -14,7 +14,7 @@
   --radius: 0px;
 }
 
-[data-theme="terminal-light"] {
+.theme-terminal-light {
     --background: #fff;
     --foreground: #000;
     

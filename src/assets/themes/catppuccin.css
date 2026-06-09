@@ -1,6 +1,6 @@
 /* Catppuccin Theme */
 
-[data-theme="catppuccin-dark"] {
+.theme-catppuccin-dark {
   --background: #1e1e2e;
   --foreground: #cdd6f4;
 
@@ -14,7 +14,7 @@
   --radius: 8px;
 }
 
-[data-theme="catppuccin-light"] {
+.theme-catppuccin-light {
   --background: #eff1f5;
   --foreground: #4c4f69;
 

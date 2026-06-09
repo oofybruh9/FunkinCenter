@@ -55,9 +55,6 @@
     "theme": "Theme",
     "light": "Light",
     "dark": "Dark",
-    "catppuccin": "Catppuccin",
-    "terminal": "Terminal",
-    "liquidahh": "Liquid Ass (Liquid Glass)",
     "language": "Language",
     "directories": "Directories",
     "enginedirs": "Engine Directories",
@@ -73,6 +70,11 @@
     "other": "Other Settings",
     "defaultengine": "Default Engine",
     "maxdl": "Maximum Concurrent Downloads"
+  },
+  "themes": {
+    "catppuccin": "Catppuccin",
+    "terminal": "Terminal",
+    "liquidahh": "Liquid Ass (Liquid Glass)"
   },
   "nav": {
     "home": "Home",
